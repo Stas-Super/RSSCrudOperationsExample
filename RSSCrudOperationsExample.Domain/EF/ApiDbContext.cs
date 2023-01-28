@@ -14,6 +14,7 @@ namespace RSSCrudOperationsExample.Domain.EF
     {
         public DbSet<RssFeed> RssFeeds { get; set; }
 
+        public ApiDbContext() { }
         public ApiDbContext(DbContextOptions<ApiDbContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -25,6 +26,12 @@ namespace RSSCrudOperationsExample.Domain.EF
                 .OnDelete(DeleteBehavior.Restrict);
 
             base.OnModelCreating(builder);
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=rss-dev-sql-db;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            base.OnConfiguring(optionsBuilder);
         }
     }
 }

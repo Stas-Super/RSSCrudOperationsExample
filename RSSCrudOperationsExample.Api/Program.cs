@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddApiDbContext(builder.Configuration.GetConnectionString("DevelopmentConnection"));
+builder.Services.AddApiDbContext();
 builder.Services.AddIdentity();
 builder.Services.AddMapper();
 builder.Services.AddJwtBearerAuthentication(builder.Configuration);

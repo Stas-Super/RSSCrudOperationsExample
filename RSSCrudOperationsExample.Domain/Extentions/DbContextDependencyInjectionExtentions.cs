@@ -11,12 +11,9 @@ namespace RSSCrudOperationsExample.Domain.Extentions
 {
     public static class DbContextDependencyInjectionExtentions
     {
-        public static IServiceCollection AddApiDbContext(this IServiceCollection services, string connectionString)
+        public static IServiceCollection AddApiDbContext(this IServiceCollection services)
         {
-            return services.AddDbContext<ApiDbContext>(options =>
-            {
-                options.UseSqlServer(connectionString);
-            });
+            return services.AddDbContext<ApiDbContext>();
         }
     }
 }
