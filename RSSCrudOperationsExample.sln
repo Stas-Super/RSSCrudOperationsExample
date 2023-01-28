@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSCrudOperationsExample.Api", "RSSCrudOperationsExample.Api\RSSCrudOperationsExample.Api.csproj", "{0E713366-664D-4119-8DC3-25345B5D2D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSCrudOperationsExample.ApiServices", "RSSCrudOperationsExample.ApiServices\RSSCrudOperationsExample.ApiServices.csproj", "{DD9CD502-B185-4747-AF14-B24D934F26D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSCrudOperationsExample.Business", "RSSCrudOperationsExample.Business\RSSCrudOperationsExample.Business.csproj", "{D0D70CF0-9332-4C50-B777-F1472048BA34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSCrudOperationsExample.Domain", "RSSCrudOperationsExample.Domain\RSSCrudOperationsExample.Domain.csproj", "{3E5B41D1-6776-48F8-8936-D5003E1FCA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSCrudOperationsExample.Test", "RSSCrudOperationsExample.Test\RSSCrudOperationsExample.Test.csproj", "{F741066E-0C4A-474F-98BF-B222820A52B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E713366-664D-4119-8DC3-25345B5D2D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E713366-664D-4119-8DC3-25345B5D2D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E713366-664D-4119-8DC3-25345B5D2D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E713366-664D-4119-8DC3-25345B5D2D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9CD502-B185-4747-AF14-B24D934F26D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9CD502-B185-4747-AF14-B24D934F26D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9CD502-B185-4747-AF14-B24D934F26D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9CD502-B185-4747-AF14-B24D934F26D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D70CF0-9332-4C50-B777-F1472048BA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D70CF0-9332-4C50-B777-F1472048BA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D70CF0-9332-4C50-B777-F1472048BA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D70CF0-9332-4C50-B777-F1472048BA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5B41D1-6776-48F8-8936-D5003E1FCA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5B41D1-6776-48F8-8936-D5003E1FCA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5B41D1-6776-48F8-8936-D5003E1FCA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5B41D1-6776-48F8-8936-D5003E1FCA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F741066E-0C4A-474F-98BF-B222820A52B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F741066E-0C4A-474F-98BF-B222820A52B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F741066E-0C4A-474F-98BF-B222820A52B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F741066E-0C4A-474F-98BF-B222820A52B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {576B431B-B735-4409-8456-399014625C26}
+	EndGlobalSection
+EndGlobal
