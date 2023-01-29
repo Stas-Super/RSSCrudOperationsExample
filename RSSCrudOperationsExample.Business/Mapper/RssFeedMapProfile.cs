@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace RSSCrudOperationsExample.Business.Mapper
 {
+    /// <summary>
+    /// RSS feed auto mapper
+    /// </summary>
     public class RssFeedMapProfile : Profile
     {
         public RssFeedMapProfile()

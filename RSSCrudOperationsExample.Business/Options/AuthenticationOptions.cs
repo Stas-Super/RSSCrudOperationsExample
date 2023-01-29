@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RSSCrudOperationsExample.Business.Options
 {
+    /// <summary>
+    /// Authentication options
+    /// </summary>
     public class AuthenticationOptions
     {
         public string Issuer { get; set; }

@@ -32,6 +32,11 @@ namespace RSSCrudOperationsExample.ApiServices.Controllers
             _mapper = mapper;
         }
 
+        /// <summary>
+        /// Gives to user rules
+        /// </summary>
+        /// <param name="dto">Login data transfer object</param>
+        /// <returns>Returns user response data transfer object</returns>
         [HttpPost("log-in")]
         public async Task<IActionResult> LogInAsync([FromBody] LogInRequestDto dto)
         {
@@ -53,6 +58,11 @@ namespace RSSCrudOperationsExample.ApiServices.Controllers
             return Ok(userResponseDto);
         }
 
+        /// <summary>
+        /// Register a new user
+        /// </summary>
+        /// <param name="dto">registration data transfer object</param>
+        /// <returns>Returns new user</returns>
         [HttpPost("create")]
         public async Task<IActionResult> RegisterAsync([FromBody] RegisterDto dto)
         {
@@ -73,5 +83,7 @@ namespace RSSCrudOperationsExample.ApiServices.Controllers
 
             return Ok(userResponseDto);
         }
+
+
     }
 }

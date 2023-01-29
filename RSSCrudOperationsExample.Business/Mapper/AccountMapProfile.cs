@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace RSSCrudOperationsExample.Business.Mapper
 {
+    /// <summary>
+    /// Account auto mapper
+    /// </summary>
     public class AccountMapProfile : Profile
     {
         public AccountMapProfile()
